@@ -1,0 +1,25 @@
+/* styles.css for CDN setup */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    color: #6b7280; /* text-gray-500 */
+    margin-bottom: 2.5rem;
+  }
+  
+  .destination-label {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  .info-card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+  }

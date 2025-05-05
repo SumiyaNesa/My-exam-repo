@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Hero Travel</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        content: ["./index.html"],
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.0/dist/full.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="font-sans">
+    <div class="navbar bg-base-100 px-4 shadow">
+      <div class="flex-1">
+        <img src="/pics/Group 40071 (2).png" alt="Travel Logo" class="logo">        <a class="text-2xl font-bold text-orange-500"><span class="text-black">Hero</span> Travel</a>
+        
+      </div>
+      <div class="space-x-4 hidden md:flex">
+        <a class="text-orange-600 font-semibold" href="#">Home</a>
+        <a href="#">Packages</a>
+        <a href="#">Testimonial</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="hero min-h-[500px]" style="background-image: url('./pics/Group\ 13\ \(1\)\ \(1\).png');">
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-center text-white">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold">Explore Your Travel</h1>
+          <p class="py-4 max-w-xl mx-auto">
+     <b>Explore hidden gems, make lasting memories — your next adventure begins now.</b>
+            
+            
+</p><div class="max-w-4xl mx-auto bg-white bg-opacity-30 backdrop-blur-md rounded-xl px-6 py-4 flex flex-wrap justify-center items-center gap-4 mt-6 shadow-md">
+    <input type="text" placeholder="Where go" class="input input-bordered w-40 bg-white bg-opacity-90" />
+  
+    <!-- Date input for 'When' -->
+    <input type="date" class="input input-bordered w-40 bg-white bg-opacity-90" />
+  
+    <!-- Dropdown for 'Select Type' -->
+    <select class="select select-bordered w-40 bg-white bg-opacity-90">
+      <option disabled selected>Select Type</option>
+      <option>Adventure</option>
+      <option>Relax</option>
+      <option>Culture</option>
+      <option>Wildlife</option>
+      <option>Beach</option>
+      <option>City Tour</option>
+    </select>
+  
+    <!-- Search Button -->
+    <button class="btn bg-orange-500 text-white border-none px-6">
+      🔍 Find Now
+    </button>
+  </div>
+  
+        </div>
+      </div>
+    </div>
+    <section class="popular-tours max-w-6xl mx-auto py-12 px-4 md:flex gap-10 items-center">
+        <div class="flex-1">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Popular Tours</h2>
+          <p class="mb-4 text-gray-600">
+            Embark on a journey beyond the ordinary with our curated collection of top-rated tours — from tranquil coastlines to heart-pounding alpine adventures.
+
+
+          </p>
+          <ul class="list-disc pl-5 mb-4 space-y-2 text-gray-700">
+            <li>Witness stunning natural wonders and dive into rich cultural experiences.</li>
+            <li>Let our expert guides handle the details while you focus on the fun.</li>
+            <li>Connect with local traditions through authentic, unforgettable moments.</li>
+          </ul>
+          <p class="mb-4 text-gray-600">
+            Whether you're a solo traveler, couple, or family, we offer tours that fit every interest and budget. Your dream journey is just a click away.
+          </p>
+          <button class="btn bg-orange-500 text-white">Read More</button>
+        </div>
+        <div class="flex-1 mt-6 md:mt-0">
+          <img src="./pics/Rectangle 4.png" class="rounded-lg shadow-lg" alt="Popular Tour" />
+        </div>
+      </section>
+      <section class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="text-4xl font-extrabold text-center mb-4">Why Choose Us</h2>
+        <p class="text-center text-gray-500 max-w-xl mx-auto mb-12">
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.<br />
+          Sodales dictumst nec nibh pellentesque.
+        </p>
+      
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Card 1 -->
+          <div class="bg-yellow-50 p-8 rounded-xl border border-yellow-100">
+            <div class="text-5xl mb-4">🏨</div>
+            <h4 class="text-xl font-bold mb-2">Handpicked Hotels</h4>
+            <p class="text-gray-600 leading-relaxed text-base">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. 
+              Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+            </p>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="bg-blue-50 p-8 rounded-xl border border-blue-100">
+            <div class="text-5xl mb-4">📍</div>
+            <h4 class="text-xl font-bold mb-2">World Class Service</h4>
+            <p class="text-gray-600 leading-relaxed text-base">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. 
+              Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+            </p>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="bg-rose-50 p-8 rounded-xl border border-rose-100 md:col-span-2">
+            <div class="text-5xl mb-4">🏷️</div>
+            <h4 class="text-xl font-bold mb-2">Best Price Guarantee</h4>
+            <p class="text-gray-600 leading-relaxed text-base">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. 
+              Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.
+            </p>
+          </div>
+        </div>
+      </section>
+  <section class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-center mb-2">Deals & Discounts</h2>
+    <p class="text-center text-gray-500 mb-10">Discover amazing tour deals and packages at the best prices. Book now and start your adventure.</p>
+  
+    <div class="space-y-10">
+  
+      <div class="relative rounded-2xl overflow-hidden">
+        <img src="/pics/Group 39.png" class="w-full h-80 object-cover" alt="Deal Image">
+        <div class="absolute top-4 left-4 bg-white bg-opacity-80 backdrop-blur p-4 rounded-lg max-w-xs">
+          <div class="flex items-center gap-2 text-sm text-gray-500 mb-1">
+            <span>7 Day / 6 Night</span> • <span>Max: 10</span> • <span>Malaysia</span>
+          </div>
+          <h3 class="text-lg font-semibold mb-1">Tour To Santorini</h3>
+          <p class="text-sm text-gray-600 mb-2">Enjoy a luxurious vacation with stunning views and personalized experiences.</p>
+          <p class="text-orange-500 font-semibold">Price: $1300–$1500</p>
+          <button class="btn btn-sm bg-orange-500 text-white mt-2">Book Now</button>
+        </div>
+      </div>
+  
+      <div class="relative rounded-2xl overflow-hidden">
+        <img src="/pics/Group 40.png" class="w-full h-80 object-cover" alt="Deal Image">
+
+        <div class="flex items-center gap-2 text-sm text-gray-500 mb-1">
+          <span>7 Day / 6 Night</span> • <span>Max: 10</span> • <span>Malaysia</span>
+          </div>
+          <h3 class="text-lg font-semibold mb-1">Tour To Santorini</h3>
+          <p class="text-sm text-gray-600 mb-2">A perfect escape filled with sun, luxury, and tropical vibes you'll never forget.</p>
+          <p class="text-orange-500 font-semibold">Price: $1300–$1500</p>
+          <button class="btn btn-sm bg-orange-500 text-white mt-2">Book Now</button>
+        </div>
+      </div>
+      <div class="space-y-10">
+  
+        <div class="relative rounded-2xl overflow-hidden">
+          <img src="/pics/Group 39.png" class="w-full h-80 object-cover" alt="Deal Image">
+          <div class="absolute top-4 left-4 bg-white bg-opacity-80 backdrop-blur p-4 rounded-lg max-w-xs">
+            <div class="flex items-center gap-2 text-sm text-gray-500 mb-1">
+              <span>7 Day / 6 Night</span> • <span>Max: 10</span> • <span>Malaysia</span>
+            </div>
+            <h3 class="text-lg font-semibold mb-1">Tour To Santorini</h3>
+            <p class="text-sm text-gray-600 mb-2">Enjoy a luxurious vacation with stunning views and personalized experiences.</p>
+            <p class="text-orange-500 font-semibold">Price: $1300–$1500</p>
+            <button class="btn btn-sm bg-orange-500 text-white mt-2">Book Now</button>
+          </div>
+   
+      </div>
+  
+    </div>
+  </section>
+  
+  
+    <div class="text-center mt-8">
+      <button class="btn bg-orange-500 text-white">See All Packages</button>
+    </div>
+  </section>
+  
+    <footer class="bg-gray-100 py-10 text-center">
+      <a class="text-2xl font-bold text-orange-500"><span class="text-black">Hero</span> Travel</a>
+      <p class="text-gray-500 mt-2 mb-4 max-w-md mx-auto">Experience the journey of a lifetime with expertly curated destinations, personalized adventures, and unforgettable memories. Let every step take you somewhere extraordinary</p>
+      <div class="flex justify-center gap-4 text-xl">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <p class="text-sm text-gray-400 mt-6">2025, All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
